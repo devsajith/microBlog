@@ -1,0 +1,15 @@
+.aboutCard{
+    border-radius: 10px !important;
+    max-height: max-content;
+}
+.aboutCardHeading{
+    font-weight: bolder;
+    font-family: sans-serif;
+
+}
+.line{
+    height: 1px ;
+    background-color:#ededed;
+    width:100%;
+    margin-top: 10px;
+}

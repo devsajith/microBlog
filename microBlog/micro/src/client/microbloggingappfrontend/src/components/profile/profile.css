@@ -1,0 +1,163 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s ;
+  }
+  .scroll-to-top.show {
+    position: fixed;
+    right: 20px;
+  }
+  .scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .cover-photo {
+    background-size: cover;
+    background-position: revert;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 240px;
+    background-image: url('https://img.freepik.com/free-vector/modern-banner-with-abstract-low-poly-design_1048-14340.jpg?w=1480&t=st=1687152995~exp=1687153595~hmac=25c75c6f889b52a7cecb23a55d1240d2329117e2c08bb3886ab18879b9f12037');
+    /* background-color: #34A853;  */
+    /* Additional cover photo styles */
+  }
+  
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .no-friends-animation {
+    animation: slideIn 2.5s ease-in-out;
+    font-size: large;
+    font-weight: lighter;
+    color: gray;
+
+  }
+  .cover-photooo {
+    /* background-image: url('../../assets/image/bg1.jpg'); */
+    /* background-image: url('https://img.freepik.com/free-photo/back-view-crowd-fans-watching-live-performance-music-concert-night-copy-space_637285-544.jpg?w=1480&t=st=1687336864~exp=1687337464~hmac=5502caeaa037201640d2c718fe8f5468a5adbce73f068759260d5668e7dfd04e'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+    /* background-color: #34A853;  */
+    /* Additional cover photo styles */
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px; /* Adjust as needed */
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #FFF; /* White */
+    /* Additional profile picture styles */
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-top: 10px;
+    /* Additional name styles */
+  }
+  
+  .bio {
+    margin-top: 5px;
+    color: #777; /* Gray */
+    /* Additional bio styles */
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: #34A853; /* Green */
+    margin: 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+    /* Additional social link styles */
+  }
+
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #000000 !important;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin-left:10px
+  }
+  
+  /* .menu-item:hover {
+    box-shadow: 0 0 5px rgb(50, 230, 125),
+    0 0 25px rgb(18, 228, 70),
+    0 0 50px rgb(28, 214, 28),
+    0 0 100px rgb(18, 218, 28);
+  }
+   */
+  .menu-item.active {
+    /* Styles for the active menu item */
+    background-color: rgb(0, 187, 125);
+  }
+  .menu-item.active {
+    color: #fff !important;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* Apply styling to your container element to hide the scrollbar */
+  .container {
+    overflow-y: scroll;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For IE 10+ */
+    scrollbar-color: transparent transparent; /* For Firefox */
+  }
+  /* Customize the scrollbar appearance for Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}

@@ -1,0 +1,37 @@
+.followedCard {
+  border-radius: 10px !important ;
+  margin-top: 10% !important;
+  height: fit-content !;
+  margin-left: 17px;
+  margin-right: 17px;
+  font-family: sans-serif;
+}
+
+.heading {
+  display: flex;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.line {
+  height: 1px;
+  background-color: #ededed;
+  width: 100%;
+}
+.gName {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  text-indent: 5px;
+}
+.about {
+  float: left;
+  font-size: 11px;
+  color: #6b6b6b;
+}
+.Unfollow {
+  color: #666666 !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  margin-left:10px
+}

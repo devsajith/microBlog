@@ -1,0 +1,88 @@
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cover-photo {
+    background-size: cover;
+    background-position: revert;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-image: url('https://img.freepik.com/free-vector/modern-banner-with-abstract-low-poly-design_1048-14340.jpg?w=1480&t=st=1687152995~exp=1687153595~hmac=25c75c6f889b52a7cecb23a55d1240d2329117e2c08bb3886ab18879b9f12037');
+ 
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px; 
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #FFF;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-top: 10px;
+
+  }
+  
+  .bio {
+    margin-top: 5px;
+    color: #777; 
+  }
+  
+  .social-links {
+    margin-top: 10px;
+  }
+  
+  .social-links a {
+    color: #34A853;
+    margin: 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+
+  }
+
+
+  .menu {
+    display: flex;
+  
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    margin-left:10px
+  }
+  
+  /* .menu-item:hover {
+    box-shadow: 0 0 5px rgb(50, 230, 125),
+    0 0 25px rgb(18, 228, 70),
+    0 0 50px rgb(28, 214, 28),
+    0 0 100px rgb(18, 218, 28);
+  } */
+  
+  /* .menu-item.active {
+    background-color: rgb(0, 187, 125);
+  } */
+
+

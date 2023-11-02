@@ -1,0 +1,21 @@
+.about-report{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+:global(.css-1t1j96h-MuiPaper-root-MuiDialog-paper){
+    width: 100%!important;
+}
+.textandfield{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.report-field{
+    height: 50px;
+    border: none;
+    font-family: sans-serif;
+}
+.error-report{
+    color: red;
+}

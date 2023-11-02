@@ -1,0 +1,108 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-bottom: 3px solid rgb(234, 234, 255);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+  }
+  
+  .topRight{
+      display: flex;
+      align-items: center;
+  }
+  
+  .topbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+  }
+
+#logout{
+  cursor: pointer;
+}
+.href{
+  text-decoration: none;
+}
+.mobileSidebar{
+  display: none;
+}
+.openbtnMobile {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #11111100;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+.sidebarMobile {
+  font-family: sans-serif!important;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(245, 245, 255);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebarMobile a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebarMobile a:hover {
+  color: #000000;
+}
+
+.sidebarMobile .closebtnMobile {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+#MainMobile {
+  transition:.5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebarMobile {padding-top: 15px;}
+  .sidebarMobile a {font-size: 18px;}
+}
+@media screen and (max-width:970px){
+  .topLeft{
+    display: none!important;
+  }
+  .mobileSidebar{
+    display: block!important;
+  }
+}

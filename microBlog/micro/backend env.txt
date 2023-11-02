@@ -1,0 +1,25 @@
+PORT = 9001
+API_URL = mongodb://0.0.0.0:27017/micro_blog
+TokenKey =    d1cfd00858d5d662f335a233fc4986119a
+              23839ca419ebd1e8dd29419f9151d47e
+              15c14e47ead8e24805cc1135a487428f
+              2620298dbcb4af527f07d4cac53476
+EMAIL_ID = dummymailermailerdummy@gmail.com
+EMAIL_PASSWORD = gcruhrgnazhzsmpj
+ACCESS_TOKEN_EXPIRY = 30min
+REFRESH_TOKEN_EXPIRY = 30 min
+
+# //////////////////////////   Service Account Credentials   //////////////////////////
+SERVICE_ACCOUNT_CREDENTIALS ='{
+  "type": "service_account",
+  "project_id": "microblog2-3e117",
+  "private_key_id": "24842154332e1094a2e78bb353369bea1ba2b5ff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxhgprlSCKfQ+1\nlLrt67StrIqIOorPQUh1QjCsmfGyX7Z7pJW0EXc8dOtiyEkmXOfSMIo9mBhsz+4X\nBXVmvpfxd+WMoTlWcuDcu252RisDAjQ5Xda7GxFDHxHuAjcia0twPg5KpARfwywe\ngK1h2r8zFSvGc9A8KgXp7VRVrg3voJejGGOMY/IUUlQ9FFxivX6ZYaQEexpxCnIP\nuxj1KCFf6Q5MpMdi4+c8JJVRIaNlN87cmpQxcaBqw+6T9JvAWQgP9gnGQxCXX/E7\nOp23MNaWqkDqhRSKyS9HaKUW5VNNNwMCgDuUgMdz8UxTgNVtkr+jrLA9lsm2Exxl\nbbtZWG+9AgMBAAECggEABkPt0Dg2Ks0ZJdZ29niwKsUBKqeuSHxMW18Xqq/QOPRp\n01lOs0k+hRK3UAgzlLgIsoFmD6BzlDuOcp+Nsi+d2zbZEiqKhIOPbhrrXh9B21xT\njYbDUl01McJB9r17Rqq0weReysGZKewQfY8bD24R+3KO1fU2bzkodkYbCN8YvNFG\nHHJpMJvk3WqJDBcbPjsPZh2nfdfvNULZIuDRLyXGUGAmYsdMf+JiFQTgl7N+04CC\naG9+MpcBmaQ94OCncS0nev7b39eoPiMZj3Y9VSzCHp3Nz1Zwl+tG0w71SBxeI6z0\nCMGRB4b5W65uCiOCVMuHsDqZxuZGpW3Jaqw9YjdjwQKBgQDWuq3ZWXB0Ivu+HXnD\nacBn7p2009L2t1FEpc0CG4SezjSQEvGjS5gOH8feFj4cjQ2sTOp9bOmybgdxOG4v\nZHCW/JSiq38ZYjEceV0m3/ZWLayu1nH31Onm3C9o4fS37T+BAZDf8rjX+wkwyZFv\nyK51lgeBUSNxV35VUiH1EkTVrQKBgQDTpLvReVVj5h2JGtPkaxCb56H/2PO6OhrA\niUHdvmqR79diHvNNy+/gs/8f3j2r7Ay0VNFVSsMC1XZ7ryOplUjFLMyN4AwCE7hT\n3XI9Pe2obzJtiet/LMFtkd/hOKGN+lp8nNCc7AvLUYdLZli2Euv7uCtTSBY0Nc2v\nAdjF5SakUQKBgQCfKD8zmtd/PW7au35FGV1Dq9m47kiwFbBm8X3C0iK6kpzjLSdt\nodpSnbvHITVodCRuUZR84v1VA7kAcpM5DXlmcFC7QeIzLlS4hjxFVDuCJNiZvtk6\nmNXGB+4cD18T9QXc2QxI8d+QNsHZJ45lDJpDDbECaOGcYP2CwB3rSF89AQKBgQCn\nWJ5Z58KpFw9Llbbt6epcHC9wCa/OFJuKmf1GxIWnlymLIEXpwdOOrUSRgjzpb+Ar\nxtUux8qitv7UlYtxT+UWY3HqzLkx+z3IslTeL9V3VVVeX6uiB1V6udl4UDsN9GMQ\nHT6mlc5Nmc2MxQRoE1Yc12cKlvlXlyNnueIZuDNxwQKBgFv05nuaL6M8NMtj773Q\n9xxPXfsh4rjqAWuJNyWYt0veDrnmkN/vvkL+YRwMICCjjSZurF4Wy9gNjywLhaKd\nuh854HOdLrMhyR1BCSfayyIWF5SrWf/YMBwM/TLVleRaIZyYapia5T8+E/3lmDQl\n8HfGN3oMSZCCXIbzlJnr3AQi\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-y07c9@microblog2-3e117.iam.gserviceaccount.com",
+  "client_id": "105245178956859413539",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-y07c9%40microblog2-3e117.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}'

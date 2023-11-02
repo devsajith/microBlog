@@ -1,0 +1,15 @@
+.buttonReg { 
+  height: 40px;
+  width: 269px;
+  margin-top: 8%;
+  margin-left: 29px;
+  background-color: #050606;
+  border: none;
+  }
+
+  .LoginButton {
+    color: white;
+    cursor: pointer;
+  
+    margin-top: 11px;
+  }

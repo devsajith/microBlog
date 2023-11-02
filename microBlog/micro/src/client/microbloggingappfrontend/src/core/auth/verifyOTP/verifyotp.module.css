@@ -1,0 +1,321 @@
+
+.body{
+    background-color: #ffffff;
+    
+  }
+  .loginMainDiv {
+   
+    width: 100%;
+  
+  }
+  :global(.MuiTextField-root){
+    background-color:#ffff !important;
+    max-width: 280px;
+    width: 100%;
+  }
+  :global( .MuiInputBase-root){
+    background-color: #e8f0fe !important;
+  }
+  :global(.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root){
+    border-radius: 0px!important;
+  }
+  .imgDiv {
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+    display: grid;
+    place-content: center;
+  }
+  
+  .formDiv {
+    width: 50%;
+    height: 100vh;
+    background-color: blue;
+    display: grid;
+    place-content: center;
+  }
+  
+  .loginIcon {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items:center;
+  }
+  
+  .img {
+    height: 100vh;
+  }
+  
+  
+  
+  
+  .imagediv {
+ height: 500px;
+ width: 500px;
+  }
+  .imagediv img{
+    height: 420px;
+
+  }
+  
+  .loginform {
+   background-color: #c7fee7;
+   min-height: 261px;
+   height: auto;
+   width: 354px;
+      padding: 25px;
+      border-radius: 24px;
+  }
+  
+  .Heading {
+    display: flex;
+    justify-content: center;
+    color: #040605;
+  }
+  
+  .message {
+    display: flex;
+  }
+  
+  .password {
+    display: flex;
+    margin-top: 10%;
+  }
+  
+  .form {
+    padding: 20px;
+  
+  }
+/*   
+  .form input {
+    width: 75%;
+    height: 100%;
+    margin-left: 10px;
+  } */
+  
+  .form .buttonReg {
+    height: 40px;
+    width: 268px;
+    margin-top: 8%;
+    margin-left: 22px;
+    background-color: #050606;
+    border: none;
+  }
+  .otp{
+
+  width: 150px;
+  font-size: 16px;
+  color: #333;
+  }
+  
+  .form label {
+  
+    font-size: large;
+  }
+  
+  ::placeholder {
+    color: gray;
+  }
+  
+  .forgot {
+    right: 2px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 26px;
+    cursor: auto;
+  
+  }
+  .resend {
+    cursor: pointer;
+
+  }
+  
+  .Or {
+    width: 74%;
+    text-align: center;
+    border-bottom: 1px solid #a9a9a9;
+    line-height: 0.1em;
+    margin: 10px 40px 20px 50px;
+  }
+  
+  .Or .OrSpan {
+    background: #b1e1e2;
+    padding: 0 10px;
+  }
+  
+  .LoginButton {
+    color: white;
+    cursor: pointer;
+  
+    margin-top: 11px;
+  }
+  #username{
+    background: #fff;
+  }
+  .passwordMargin,.usernameMargin{
+    margin-right: 10px;
+    margin-top: 12px;
+  }
+  .micro{
+    display: flex;
+    justify-content: center;
+    margin-right: 79px;
+    color: #030202;
+    font-size:x-large;
+    font-family:system-ui;
+
+  }
+  
+  .microBlogin1{
+    display: none;
+  }
+  @import url(https://fonts.googleapis.com/css?family=Roboto:500);
+  
+  .googleBtn {
+    width: 267px;
+      padding-top: 4px;
+      height: 42px;
+      margin-left: 48px;
+      background-color: white;
+      border-radius: 2px;
+      margin-top: 37 px;
+      cursor: pointer;
+      margin-bottom: 30px;
+  
+  }
+  
+  .googleBtn .googleIconWrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  
+  .googleBtn .googleIcon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .googleBtn .btnText {
+    float: right;
+    margin: 11px 67px 0 0;
+    color: #a9a9a9;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+    margin-top: 13px;
+    
+  
+  }
+  
+  .SignUp {
+    margin-left: 73px;
+  }
+  .signuplink{
+    text-decoration: none;
+    color: black;
+  }
+  .S {
+    font-weight: 600;
+  }
+  .input_field{
+    background: #fff;
+  }
+  .err{
+    color: red;
+    font-size:x-small;
+  }
+  
+  @media screen and (max-width:1200px) {
+    .loginIcon {
+     
+      justify-content: center;
+      flex-direction: column !important;
+    }
+    .loginMainDiv{
+      /* flex-direction: column!important; */
+      justify-content: center;
+    }
+  .loginform{
+    width: 335px!important;
+    font-size: 12px;
+  }
+  .imagediv{
+    display: none;
+  }
+  .microBlogin1{
+    display: block;
+    color: #090909;
+    font-family: system-ui;
+  }
+  .formsdiv {
+    width: 500px;
+  }
+
+  .microBlogin{
+    display: none;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #0c0c0c;
+    font-size:x-large;
+    font-family:system-ui;
+
+  }
+  .Or {
+   width:79%;
+  }
+  .usernameMargin{
+    display:none;
+  }
+
+  .passwordMargin{
+    display:none;
+  }
+ .form{
+  padding: 5px!important;
+ }
+ .message{
+  margin-left: 28px!important;
+ }
+ .password{
+  margin-left: 28px!important;
+ }
+ .googleBtn{
+  margin-left: 35px!important;
+ }
+ .SignUp{
+  margin-left: 87px!important;
+ }
+ .Or{
+  margin: 10px 40px 20px 34px!important;
+ }
+  
+  }
+  @media screen and (max-width: 550px) {
+    .body{
+        background-color: #c7fee7;
+        
+      }
+    .loginform{
+      max-width: 620px!important;
+      padding: 0!important;
+  
+    }
+    .bg {
+      width: 100%;
+  
+    }
+   
+  
+  
+  }
+  

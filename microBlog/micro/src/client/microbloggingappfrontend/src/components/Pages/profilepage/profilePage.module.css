@@ -1,0 +1,51 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.imagewrap {
+  width: 100%;
+  object-fit: cover;
+  height:500px;
+}
+
+.avatar {
+  width: 100%;
+  height: 0px;
+}
+
+.imgwrap {
+  position: relative;
+  bottom: 100px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.userData {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  margin-top: 20px;
+  gap: 10px;
+}
+.userData span{
+  cursor: pointer !important;
+  z-index: 999;
+}
+
+.userData h5 {
+  color: #6f6f6f;
+}
+.addButton{
+  color:#0a86de!important;
+  border-color: #3847ce !important;
+  border-radius: 50px !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  margin-left: 8px !important;  
+  width: 100px;
+}

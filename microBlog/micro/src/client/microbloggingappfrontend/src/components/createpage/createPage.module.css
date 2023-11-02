@@ -1,0 +1,120 @@
+.modalbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.closeWrap {
+  width: 100%;
+  height: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeIcon {
+  position: relative;
+  bottom: 25px;
+  left: 25px;
+  cursor: pointer;
+  color: grey;
+}
+.title {
+  font-family: system-ui;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.wrap {
+  display: flex;
+  gap: 40px;
+}
+
+.fields {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.fields img {
+  object-fit: cover;
+}
+.fields div {
+  display: flex;
+  flex-direction: column;
+}
+
+.fields small {
+  color: red;
+}
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.photoDiv {
+  width: 100%;
+  height: 80px;
+  background: #dbe7e9;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.PhotoIconHere {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.PhotoIcon {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #0a66c2;
+  border-radius: 40px;
+}
+.photoName {
+  margin-top: 2px;
+  margin-left: 8px;
+}
+.photoName span {
+  color: #0a66c2;
+  font-weight: bold;
+}
+
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.listLine {
+  margin-top: 12px;
+  height: 1px;
+  background-color: #ebebeb;
+  width: 100%;
+}
+.PostButtonInner {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #0a66c2;
+  cursor: pointer;
+}

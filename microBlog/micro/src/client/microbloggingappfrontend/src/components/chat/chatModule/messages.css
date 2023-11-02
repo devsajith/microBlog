@@ -1,0 +1,317 @@
+body {
+    font-family: "Roboto", "Raleway", "Comfortaa", "Montserrat", "Quicksand";
+    background-color: #f0f1f5;
+    color: #0e0d0d;
+}
+.wrapper {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.chat {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    margin-top: 38px;
+}
+.box {
+    background-color: #fff;
+    margin: 10px 3px 0 3px;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(168, 168, 168, .5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(168, 168, 168, .5);
+    box-shadow: 0px 0px 5px 0px rgba(168, 168, 168, .5);
+}
+.title {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.left {
+    position: sticky;
+    justify-content: left;
+    flex-direction: column;
+    width: 30%;
+    min-width: 250px;
+    height: 96%;
+    padding: 10px 10px 10px 10px;
+    max-width: 400px;
+}
+h2 {
+    font-weight: 400;
+    margin: 0;
+}
+.search {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.search > i {
+    margin-right: 5px;
+}
+.search > input {
+    height: 20px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 10px;
+    display: flex;
+    flex-grow: 1;
+    border-bottom: 2px solid rgba(0, 0, 0, .05);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: transparent;
+}
+.persona-container {
+    width: 100%;
+    overflow-y: auto;
+}
+.persona {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  
+}
+.persona > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.info-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: calc(100% - 110px);
+}
+.info-name {
+    font-weight: 300;
+}
+.info-message {
+    color: #b2b4ba;
+    font-size: 0.8em;
+    font-weight: 300;
+    text-wrap: no-wrap;
+    overflow-x: hidden;
+    width: 100%;
+    max-height: 17px;
+}
+.info-message-bold{
+    color: #b2b4ba;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-wrap: no-wrap;
+    overflow-x: hidden;
+    width: 100%;
+    max-height: 17px;
+}
+.detail-section {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    font-weight: 300;
+    position: absolute;
+    right: 10px;
+}
+.detail-section {
+    text-align: right;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.unread > .detail-section {
+    margin-right: -7px;
+}
+.right {
+    justify-content: right;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.rightFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    background-color: #fff;
+}
+.rightFlex img{
+    width: 100px;
+    height: 100px;
+}
+.rightFlex a{
+    text-decoration: none;
+    color: black;
+}
+.rightFlex a:hover{
+    color: rgb(0, 187, 125);
+}
+.chat-person > h3 {
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+}
+.chat-person {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+.message {
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 40%;
+    margin: 5px;
+    font-weight: 300;
+}
+.msg-me {
+    background-color: #4f95ff;
+    color: #fff;
+    margin-left: auto;
+}
+.msg-me-time {
+    margin-left: auto;
+    padding: 0 10px 0 10px;
+    color: #b2b4ba;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+}
+.msg-other-time {
+    margin-right: auto;
+    padding: 0 10px 0 10px;
+    color: #b2b4ba;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+}
+.msg-other {
+    background-color: rgba(0, 0, 0, .1);
+    color: #0e0d0d;
+    margin-right: auto;
+}
+.chat-input {
+    height: 30px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.chat-input > i {
+    color: #b2b4ba;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.chat-input > input {
+    height: 30px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 100;
+    display: flex;
+    flex-grow: 1;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: transparent;
+}
+.chat-send-btn {
+    color: #4f95ff;
+    cursor: pointer;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.emoji-container {
+    height: 300px;
+    width: 260px;
+    margin-bottom: 15px;
+    position: absolute;
+    bottom: 60px;
+    flex-direction: column;
+    display: none;
+}
+.emoji-selection {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow-y: scroll;
+}
+.emoji-categories {
+    height: 40px;
+    border-top: 2px solid rgba(0, 0, 0, .05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+}
+.emoji {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px 6px;
+    justify-content: center;
+}
+.selected-category {
+    background-color: rgba(0, 0, 0, .05);
+}
+.messageHeading {
+    width: 100%;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(0, 187, 125);
+    text-decoration: underline;
+  }
+
+.rightOne{
+    justify-content: right;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.persona-container-1{
+    height: 100%;
+    background-color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.persona-container-1 span{
+    display: flex;
+    align-items: center;
+}
+.createGroup{
+    
+}

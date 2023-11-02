@@ -1,0 +1,211 @@
+
+.bodyAdmin{
+    background-color: #663399;
+    
+  }
+  .loginMainDiv {
+   
+    width: 100%;
+  
+  }
+  :global(.MuiTextField-root){
+    background-color: #ffff;
+    max-width: 280px;
+    width: 100%;
+    height: 50px;
+  }
+  :global( .MuiInputBase-root){
+    background-color: #e8f0fe !important;
+  }
+  :global(.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root){
+    height: 51px;
+  }
+  .imgDiv {
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+    display: grid;
+    place-content: center;
+  }
+  
+  .formDiv {
+    width: 50%;
+    height: 100vh;
+    background-color: blue;
+    display: grid;
+    place-content: center;
+  }
+  
+  .loginIcon {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items:center;
+  }
+
+  .micro{
+    display: flex;
+    justify-content: center;
+    margin-right: -58px;
+    color: #fff;
+    font-size:x-large;
+    margin-top: 389px !important;
+    font-family: system-ui;
+  }
+  
+  .img {
+    height: 100vh;
+  }
+
+.imagediv {
+ background-image: url("../../../assets/image/admin.jpg");  
+ background-size: cover;
+ height: 395px;
+ width: 287px;
+  }
+  
+  .loginform {
+   background-color: #b3b1e2;
+      max-height: 430px;
+      height: auto;
+      width: 340px;
+      padding: 25px;
+      border-radius: 24px;
+  }
+  
+  .Heading {
+    display: flex;
+    justify-content: center;
+    color: #12192c;
+  }
+  
+  .message {
+    display: flex;
+  }
+  
+  .password {
+    display: flex;
+    margin-top: 10%;
+  }
+  
+  .form {
+    padding: 20px;
+  
+  }
+  
+  .form input {
+    width: 75%;
+    height: 100%;
+    margin-left: 10px;
+  }
+  
+  .form .buttonReg {
+    height: 40px;
+    width: 200px;
+    margin-top: 8%;
+    margin-left: 56px;
+    background-color: #12192c;
+    border: none;
+  }
+  
+  .form label {
+  
+    font-size: large;
+  }
+  
+  ::placeholder {
+    color: gray;
+  }
+  
+  .forgot {
+    right: 2px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+    cursor: pointer;
+  
+  }
+  
+  .Or {
+    width: 79%;
+    text-align: center;
+    border-bottom: 1px solid #a9a9a9;
+    line-height: 0.1em;
+    margin: 10px 40px 20px 47px;
+  }
+  
+  .Or .OrSpan {
+    background: #b3b1e2;
+    padding: 0 10px;
+  }
+  
+  .LoginButton {
+    color: white;
+    cursor: pointer;
+  
+    margin-top: 11px;
+  }
+  #username{
+    background: #fff;
+  }
+  .passwordMargin,.usernameMargin{
+    margin-right: 10px;
+    margin-top: 12px;
+  }
+  .micro1{
+    display: none;
+  }
+  
+
+  .input_field{
+    background: #fff;
+  }
+  .err{
+    color: red;
+    font-size: x-small;
+  }
+  
+  @media screen and (max-width:1200px) {
+    .loginIcon {
+     
+      justify-content: center;
+      flex-direction: column !important;
+    }
+    .loginMainDiv{
+      /* flex-direction: column!important; */
+      justify-content: center;
+    }
+  .loginform{
+    width: 335px!important;
+    font-size: 12px;
+  }
+  .imagediv{
+    display: none;
+  }
+  .micro1{
+    display: block;
+    color: #fff;
+    font-family: system-ui;
+  }
+  }
+  @media screen and (max-width: 300px) {
+.loginIcon{
+  overflow: hidden  ;
+}
+  }
+  @media screen and (max-width: 550px) {
+  
+    .loginform{
+      max-width: 620px!important;
+      padding: 0!important;
+  
+    }
+    .bg {
+      width: 100%;
+  
+    }
+  
+  
+  }
+  

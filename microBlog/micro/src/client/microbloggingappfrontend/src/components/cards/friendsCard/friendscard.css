@@ -1,0 +1,130 @@
+.friendname {
+    float: left;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+
+.textButton:hover {
+    background:#ebebeb !important;
+}
+@-moz-document url-prefix() {
+  /* Firefox-specific CSS */
+  a {
+    text-decoration: none !important;
+  }
+}
+.search{
+    border:none;
+    outline-style: none;
+    height: 36px;
+    border-radius: 54px;
+    width: 240px;
+    padding-left: 52px;
+    color: #666666;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 15px;
+    background: url("../../../assets/image/SearchIcon.svg") no-repeat scroll 16px#ececec;
+    background-size: 25px;
+    display: flex;
+    margin-left: auto;
+  }
+  .Friends{
+    display: flex;
+    font-weight:bolder;
+    font-family: sans-serif;
+  }
+  .textButton {
+    color:#00bb7d!important;
+    border-color: #00bb7d !important;
+    border-radius: 50px !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    font-weight: 500;
+    margin-left: 10px !important;  
+
+}
+.pendingButton{
+  color:#515553!important;
+    border-color: #6e706f !important;
+    border-radius: 50px !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    font-weight: 500;
+    margin-left: 10px !important;  
+
+}
+.noData{
+  margin-left: 0%;
+  margin-top: 20px;
+  color: "#777" !important;
+  font-weight: 400;
+  color:#777;
+}
+.supDiv{
+  width: 30px;
+  height: 26px;
+  background-color: #fd0508;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  margin-left: 2px;
+  margin-top: -8px;
+
+}
+.countDiv{
+  color: #ebebeb;
+  font-size: small;
+  margin-top: 4px;
+}
+.addButton{
+  color:#0a86de!important;
+  border-color: #3847ce !important;
+  border-radius: 50px !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  margin-left: 10px !important;  
+}
+.messageButton{
+  color:#09bf64!important;
+  border-color: #00bb7d !important;
+  border-radius: 50px !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  margin-left: 10px !important;  
+}
+
+
+.unfriendButton {
+  color: #666666 !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  margin-left: 10px !important;
+
+}
+.profile{
+  width: 40px;
+  height:40px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.about{
+  float:left;
+  font-size: 11px;
+  color:#6b6b6b;
+  padding-left: 5px;
+  text-indent: 3px;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  width: calc(90vw - 480px) ;
+}
+#buttonThreeDots{
+  transform: rotate(90deg);
+  min-width: 0px!important;
+}
+
